@@ -18,11 +18,19 @@ function Game(tileNames) {
   this.grid = makeGrid(tileDeck);
   this.message = Game.MESSAGE_CLICK;
   this.unmatchedPairs = tileNames.length;
+  this.rounds = 0;
+  this.numberOfFlips = 0;
 
   this.flipTile = function(tile) {
     if (tile.flipped) {
       return;
     }
+
+	this.numberOfFlips++;
+	if (this.numberOfFlips % 2 !== 0 )
+	{
+		this.rounds++;
+	}
 
     tile.flip();
 

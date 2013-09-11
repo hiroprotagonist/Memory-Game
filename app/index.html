@@ -11,7 +11,7 @@
 <body ng-controller="GameCtrl">
   <div>Pairs left to match: {{game.unmatchedPairs}}</div>
   <div>Matching: {{game.firstPick.title}}</div>
-
+  <div>Round: {{game.rounds}}</div>
   <table>
     <tr ng-repeat="row in game.grid">
       <td ng-repeat="tile in row" ng-click="game.flipTile(tile)">
