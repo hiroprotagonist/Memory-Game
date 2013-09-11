@@ -1,9 +1,5 @@
 /* app css stylesheet */
 
-div {
-  font-size: 30px;
-}
-
 .container {
   width: 165px;
   height: 200px;
@@ -50,8 +46,6 @@ div {
   backface-visibility: hidden;
 }
 
-
-
 .card .back {
   background: blue;
   -webkit-transform: rotateY( 180deg );
@@ -61,7 +55,35 @@ div {
   transform: rotateY( 180deg );
 }
 
-.message {
-  width: 660px;
-  text-align: center;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
