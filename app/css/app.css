@@ -47,7 +47,7 @@
 }
 
 .card .back {
-  background: blue;
+  background: transparent;
   -webkit-transform: rotateY( 180deg );
   -moz-transform: rotateY( 180deg );
   -ms-transform: rotateY( 180deg );
